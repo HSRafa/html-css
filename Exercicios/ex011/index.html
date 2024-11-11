@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias</title>
+    <link rel="shortcut icon" href="imagens/rosa.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários despositivos</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequna300.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/média700.png" type="image/png">
+        <img src="imagens/1000grande.png" alt="Grande">
+    </picture>
+   
+    <h1>Reproduzindo áudios</h1>
+    <p>aprendendo a reproduzir</p>
+    <audio preload="metadata" controls >
+        <source src="midia/Banda Djavu   Crew Da Vizinha.mp3" type="audio/mp3" >
+    </audio>
+
+    <h1>Vídeos</h1>
+    <p>Agora é vídeos meu site</p>
+
+    <video width="350" controls loop autoplay>
+        <source src="midia/esse é um barulho que todo homem ama.mp4" type="video/mp4">
+        
+    </video>
+
+    <h1>Videos externos</h1>
+    <p>agora é Videos externos</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4Zs_vt0JLpU?si=9T_v0nbaWnTrjpfZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    
+</body>
+</html>
