@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+</head>
+<style>
+    body{
+        background-image: url(src/espaco.jpg);
+        background-position: 100%, 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    #h1{
+        background: linear-gradient(to right, red, darkblue);
+        max-width: 800px;
+        text-shadow: 5px 5px 5px black;
+        text-decoration: underline;
+        border-radius: 50%;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #Astronauta{
+        position: relative;
+        height: 400px;
+        width: 400px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-60%, -70%);
+    }
+
+</style>
+
+<body>
+    <div id="h1">
+        <h1>Astronauta Chapadão</h1>
+    </div>
+
+    <article id="Astronauta">
+        <img src="src/astronauta.png" alt="Astronauta">
+    </article>
+</body>
+</html>
